@@ -1,0 +1,543 @@
+<?xml version="1.0"?>
+<dumps>
+  <platform name="win32A" char_bit="8" short_bit="16" int_bit="32" long_bit="32" long_long_bit="64" pointer_bit="32"/>
+  <rawtokens>
+    <file index="0" name="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h"/>
+    <tok fileIndex="0" linenr="1" column="1" str="#"/>
+    <tok fileIndex="0" linenr="1" column="2" str="ifndef"/>
+    <tok fileIndex="0" linenr="1" column="9" str="B3F6FA37_57D3_45BF_A789_EB0E7FF55DCB"/>
+    <tok fileIndex="0" linenr="2" column="1" str="#"/>
+    <tok fileIndex="0" linenr="2" column="2" str="define"/>
+    <tok fileIndex="0" linenr="2" column="9" str="B3F6FA37_57D3_45BF_A789_EB0E7FF55DCB"/>
+    <tok fileIndex="0" linenr="4" column="1" str="#"/>
+    <tok fileIndex="0" linenr="4" column="2" str="include"/>
+    <tok fileIndex="0" linenr="4" column="10" str="&lt;opencv2/opencv.hpp&gt;"/>
+    <tok fileIndex="0" linenr="5" column="1" str="#"/>
+    <tok fileIndex="0" linenr="5" column="2" str="include"/>
+    <tok fileIndex="0" linenr="5" column="10" str="&lt;opencv2/imgproc/imgproc.hpp&gt;"/>
+    <tok fileIndex="0" linenr="6" column="1" str="#"/>
+    <tok fileIndex="0" linenr="6" column="2" str="include"/>
+    <tok fileIndex="0" linenr="6" column="10" str="&lt;opencv2/imgcodecs.hpp&gt;"/>
+    <tok fileIndex="0" linenr="7" column="1" str="#"/>
+    <tok fileIndex="0" linenr="7" column="2" str="include"/>
+    <tok fileIndex="0" linenr="7" column="10" str="&lt;opencv2/videoio.hpp&gt;"/>
+    <tok fileIndex="0" linenr="8" column="1" str="#"/>
+    <tok fileIndex="0" linenr="8" column="2" str="include"/>
+    <tok fileIndex="0" linenr="8" column="10" str="&lt;opencv2/video.hpp&gt;"/>
+    <tok fileIndex="0" linenr="10" column="1" str="#"/>
+    <tok fileIndex="0" linenr="10" column="2" str="include"/>
+    <tok fileIndex="0" linenr="10" column="10" str="&lt;string&gt;"/>
+    <tok fileIndex="0" linenr="12" column="1" str="namespace"/>
+    <tok fileIndex="0" linenr="12" column="11" str="BP"/>
+    <tok fileIndex="0" linenr="12" column="14" str="{"/>
+    <tok fileIndex="0" linenr="14" column="1" str="static"/>
+    <tok fileIndex="0" linenr="14" column="8" str="const"/>
+    <tok fileIndex="0" linenr="14" column="14" str="std"/>
+    <tok fileIndex="0" linenr="14" column="17" str="::"/>
+    <tok fileIndex="0" linenr="14" column="19" str="string"/>
+    <tok fileIndex="0" linenr="14" column="26" str="RECT"/>
+    <tok fileIndex="0" linenr="14" column="31" str="="/>
+    <tok fileIndex="0" linenr="14" column="33" str="&quot;RECT&quot;"/>
+    <tok fileIndex="0" linenr="14" column="39" str=";"/>
+    <tok fileIndex="0" linenr="15" column="1" str="static"/>
+    <tok fileIndex="0" linenr="15" column="8" str="const"/>
+    <tok fileIndex="0" linenr="15" column="14" str="std"/>
+    <tok fileIndex="0" linenr="15" column="17" str="::"/>
+    <tok fileIndex="0" linenr="15" column="19" str="string"/>
+    <tok fileIndex="0" linenr="15" column="26" str="CROSS"/>
+    <tok fileIndex="0" linenr="15" column="32" str="="/>
+    <tok fileIndex="0" linenr="15" column="34" str="&quot;CROSS&quot;"/>
+    <tok fileIndex="0" linenr="15" column="41" str=";"/>
+    <tok fileIndex="0" linenr="16" column="1" str="static"/>
+    <tok fileIndex="0" linenr="16" column="8" str="const"/>
+    <tok fileIndex="0" linenr="16" column="14" str="std"/>
+    <tok fileIndex="0" linenr="16" column="17" str="::"/>
+    <tok fileIndex="0" linenr="16" column="19" str="string"/>
+    <tok fileIndex="0" linenr="16" column="26" str="ELLIPSE"/>
+    <tok fileIndex="0" linenr="16" column="34" str="="/>
+    <tok fileIndex="0" linenr="16" column="36" str="&quot;ELLIPSE&quot;"/>
+    <tok fileIndex="0" linenr="16" column="45" str=";"/>
+    <tok fileIndex="0" linenr="17" column="1" str="static"/>
+    <tok fileIndex="0" linenr="17" column="8" str="const"/>
+    <tok fileIndex="0" linenr="17" column="14" str="std"/>
+    <tok fileIndex="0" linenr="17" column="17" str="::"/>
+    <tok fileIndex="0" linenr="17" column="19" str="string"/>
+    <tok fileIndex="0" linenr="17" column="26" str="KNN"/>
+    <tok fileIndex="0" linenr="17" column="30" str="="/>
+    <tok fileIndex="0" linenr="17" column="32" str="&quot;KNN&quot;"/>
+    <tok fileIndex="0" linenr="17" column="37" str=";"/>
+    <tok fileIndex="0" linenr="18" column="1" str="static"/>
+    <tok fileIndex="0" linenr="18" column="8" str="const"/>
+    <tok fileIndex="0" linenr="18" column="14" str="std"/>
+    <tok fileIndex="0" linenr="18" column="17" str="::"/>
+    <tok fileIndex="0" linenr="18" column="19" str="string"/>
+    <tok fileIndex="0" linenr="18" column="26" str="MOG2"/>
+    <tok fileIndex="0" linenr="18" column="31" str="="/>
+    <tok fileIndex="0" linenr="18" column="33" str="&quot;MOG2&quot;"/>
+    <tok fileIndex="0" linenr="18" column="39" str=";"/>
+    <tok fileIndex="0" linenr="20" column="1" str="struct"/>
+    <tok fileIndex="0" linenr="20" column="8" str="Parameters"/>
+    <tok fileIndex="0" linenr="20" column="19" str="{"/>
+    <tok fileIndex="0" linenr="21" column="5" str="std"/>
+    <tok fileIndex="0" linenr="21" column="8" str="::"/>
+    <tok fileIndex="0" linenr="21" column="10" str="string"/>
+    <tok fileIndex="0" linenr="21" column="17" str="bgSubtractor"/>
+    <tok fileIndex="0" linenr="21" column="29" str=";"/>
+    <tok fileIndex="0" linenr="22" column="5" str="bool"/>
+    <tok fileIndex="0" linenr="22" column="10" str="bgSubVerbose"/>
+    <tok fileIndex="0" linenr="22" column="22" str=";"/>
+    <tok fileIndex="0" linenr="24" column="5" str="int"/>
+    <tok fileIndex="0" linenr="24" column="9" str="blur"/>
+    <tok fileIndex="0" linenr="24" column="13" str=";"/>
+    <tok fileIndex="0" linenr="25" column="5" str="bool"/>
+    <tok fileIndex="0" linenr="25" column="10" str="blurVerbose"/>
+    <tok fileIndex="0" linenr="25" column="21" str=";"/>
+    <tok fileIndex="0" linenr="27" column="5" str="std"/>
+    <tok fileIndex="0" linenr="27" column="8" str="::"/>
+    <tok fileIndex="0" linenr="27" column="10" str="string"/>
+    <tok fileIndex="0" linenr="27" column="17" str="erosion"/>
+    <tok fileIndex="0" linenr="27" column="24" str=";"/>
+    <tok fileIndex="0" linenr="28" column="5" str="bool"/>
+    <tok fileIndex="0" linenr="28" column="10" str="erosionVerbose"/>
+    <tok fileIndex="0" linenr="28" column="24" str=";"/>
+    <tok fileIndex="0" linenr="29" column="5" str="int"/>
+    <tok fileIndex="0" linenr="29" column="9" str="erosionSize"/>
+    <tok fileIndex="0" linenr="29" column="20" str=";"/>
+    <tok fileIndex="0" linenr="31" column="5" str="std"/>
+    <tok fileIndex="0" linenr="31" column="8" str="::"/>
+    <tok fileIndex="0" linenr="31" column="10" str="string"/>
+    <tok fileIndex="0" linenr="31" column="17" str="dilation"/>
+    <tok fileIndex="0" linenr="31" column="25" str=";"/>
+    <tok fileIndex="0" linenr="32" column="5" str="int"/>
+    <tok fileIndex="0" linenr="32" column="9" str="dilationSize"/>
+    <tok fileIndex="0" linenr="32" column="21" str=";"/>
+    <tok fileIndex="0" linenr="33" column="5" str="bool"/>
+    <tok fileIndex="0" linenr="33" column="10" str="dilationVerbose"/>
+    <tok fileIndex="0" linenr="33" column="25" str=";"/>
+    <tok fileIndex="0" linenr="35" column="5" str="int"/>
+    <tok fileIndex="0" linenr="35" column="9" str="threshold"/>
+    <tok fileIndex="0" linenr="35" column="18" str=";"/>
+    <tok fileIndex="0" linenr="36" column="5" str="bool"/>
+    <tok fileIndex="0" linenr="36" column="10" str="thresholdVerbose"/>
+    <tok fileIndex="0" linenr="36" column="26" str=";"/>
+    <tok fileIndex="0" linenr="37" column="1" str="}"/>
+    <tok fileIndex="0" linenr="37" column="2" str=";"/>
+    <tok fileIndex="0" linenr="41" column="1" str="using"/>
+    <tok fileIndex="0" linenr="41" column="7" str="namespace"/>
+    <tok fileIndex="0" linenr="41" column="17" str="cv"/>
+    <tok fileIndex="0" linenr="41" column="19" str=";"/>
+    <tok fileIndex="0" linenr="43" column="1" str="class"/>
+    <tok fileIndex="0" linenr="43" column="7" str="BasicProcessing"/>
+    <tok fileIndex="0" linenr="43" column="22" str="{"/>
+    <tok fileIndex="0" linenr="44" column="1" str="public"/>
+    <tok fileIndex="0" linenr="44" column="7" str=":"/>
+    <tok fileIndex="0" linenr="45" column="5" str="static"/>
+    <tok fileIndex="0" linenr="45" column="12" str="BasicProcessing"/>
+    <tok fileIndex="0" linenr="45" column="27" str="&amp;"/>
+    <tok fileIndex="0" linenr="45" column="29" str="getInstance"/>
+    <tok fileIndex="0" linenr="45" column="40" str="("/>
+    <tok fileIndex="0" linenr="45" column="41" str=")"/>
+    <tok fileIndex="0" linenr="45" column="42" str=";"/>
+    <tok fileIndex="0" linenr="46" column="5" str="virtual"/>
+    <tok fileIndex="0" linenr="46" column="13" str="~"/>
+    <tok fileIndex="0" linenr="46" column="14" str="BasicProcessing"/>
+    <tok fileIndex="0" linenr="46" column="29" str="("/>
+    <tok fileIndex="0" linenr="46" column="30" str=")"/>
+    <tok fileIndex="0" linenr="46" column="31" str=";"/>
+    <tok fileIndex="0" linenr="47" column="5" str="void"/>
+    <tok fileIndex="0" linenr="47" column="10" str="initialize"/>
+    <tok fileIndex="0" linenr="47" column="20" str="("/>
+    <tok fileIndex="0" linenr="47" column="21" str="Parameters"/>
+    <tok fileIndex="0" linenr="47" column="31" str="&amp;"/>
+    <tok fileIndex="0" linenr="47" column="33" str="m_params"/>
+    <tok fileIndex="0" linenr="47" column="41" str=")"/>
+    <tok fileIndex="0" linenr="47" column="42" str=";"/>
+    <tok fileIndex="0" linenr="48" column="5" str="void"/>
+    <tok fileIndex="0" linenr="48" column="10" str="process"/>
+    <tok fileIndex="0" linenr="48" column="17" str="("/>
+    <tok fileIndex="0" linenr="48" column="18" str="Mat"/>
+    <tok fileIndex="0" linenr="48" column="21" str="&amp;"/>
+    <tok fileIndex="0" linenr="48" column="23" str="frame"/>
+    <tok fileIndex="0" linenr="48" column="28" str=")"/>
+    <tok fileIndex="0" linenr="48" column="29" str=";"/>
+    <tok fileIndex="0" linenr="49" column="5" str="const"/>
+    <tok fileIndex="0" linenr="49" column="11" str="Mat"/>
+    <tok fileIndex="0" linenr="49" column="14" str="&amp;"/>
+    <tok fileIndex="0" linenr="49" column="16" str="getResult"/>
+    <tok fileIndex="0" linenr="49" column="25" str="("/>
+    <tok fileIndex="0" linenr="49" column="26" str=")"/>
+    <tok fileIndex="0" linenr="49" column="27" str=";"/>
+    <tok fileIndex="0" linenr="51" column="1" str="private"/>
+    <tok fileIndex="0" linenr="51" column="8" str=":"/>
+    <tok fileIndex="0" linenr="52" column="5" str="void"/>
+    <tok fileIndex="0" linenr="52" column="10" str="blur"/>
+    <tok fileIndex="0" linenr="52" column="14" str="("/>
+    <tok fileIndex="0" linenr="52" column="15" str="Mat"/>
+    <tok fileIndex="0" linenr="52" column="18" str="&amp;"/>
+    <tok fileIndex="0" linenr="52" column="20" str="frame"/>
+    <tok fileIndex="0" linenr="52" column="25" str=")"/>
+    <tok fileIndex="0" linenr="52" column="26" str=";"/>
+    <tok fileIndex="0" linenr="53" column="5" str="void"/>
+    <tok fileIndex="0" linenr="53" column="10" str="dilation"/>
+    <tok fileIndex="0" linenr="53" column="18" str="("/>
+    <tok fileIndex="0" linenr="53" column="19" str="Mat"/>
+    <tok fileIndex="0" linenr="53" column="22" str="&amp;"/>
+    <tok fileIndex="0" linenr="53" column="24" str="frame"/>
+    <tok fileIndex="0" linenr="53" column="29" str=")"/>
+    <tok fileIndex="0" linenr="53" column="30" str=";"/>
+    <tok fileIndex="0" linenr="54" column="5" str="void"/>
+    <tok fileIndex="0" linenr="54" column="10" str="erosion"/>
+    <tok fileIndex="0" linenr="54" column="17" str="("/>
+    <tok fileIndex="0" linenr="54" column="18" str="Mat"/>
+    <tok fileIndex="0" linenr="54" column="21" str="&amp;"/>
+    <tok fileIndex="0" linenr="54" column="23" str="frame"/>
+    <tok fileIndex="0" linenr="54" column="28" str=")"/>
+    <tok fileIndex="0" linenr="54" column="29" str=";"/>
+    <tok fileIndex="0" linenr="55" column="5" str="void"/>
+    <tok fileIndex="0" linenr="55" column="10" str="binarize"/>
+    <tok fileIndex="0" linenr="55" column="18" str="("/>
+    <tok fileIndex="0" linenr="55" column="19" str="Mat"/>
+    <tok fileIndex="0" linenr="55" column="22" str="&amp;"/>
+    <tok fileIndex="0" linenr="55" column="24" str="frame"/>
+    <tok fileIndex="0" linenr="55" column="29" str=")"/>
+    <tok fileIndex="0" linenr="55" column="30" str=";"/>
+    <tok fileIndex="0" linenr="57" column="5" str="BasicProcessing"/>
+    <tok fileIndex="0" linenr="57" column="20" str="("/>
+    <tok fileIndex="0" linenr="57" column="21" str=")"/>
+    <tok fileIndex="0" linenr="57" column="22" str=";"/>
+    <tok fileIndex="0" linenr="58" column="5" str="Parameters"/>
+    <tok fileIndex="0" linenr="58" column="16" str="m_params"/>
+    <tok fileIndex="0" linenr="58" column="24" str=";"/>
+    <tok fileIndex="0" linenr="59" column="5" str="Ptr"/>
+    <tok fileIndex="0" linenr="59" column="8" str="&lt;"/>
+    <tok fileIndex="0" linenr="59" column="9" str="BackgroundSubtractor"/>
+    <tok fileIndex="0" linenr="59" column="29" str="&gt;"/>
+    <tok fileIndex="0" linenr="59" column="31" str="m_bgSubtractor"/>
+    <tok fileIndex="0" linenr="59" column="45" str=";"/>
+    <tok fileIndex="0" linenr="60" column="5" str="Mat"/>
+    <tok fileIndex="0" linenr="60" column="9" str="m_result"/>
+    <tok fileIndex="0" linenr="60" column="17" str=";"/>
+    <tok fileIndex="0" linenr="61" column="1" str="}"/>
+    <tok fileIndex="0" linenr="61" column="2" str=";"/>
+    <tok fileIndex="0" linenr="64" column="1" str="}"/>
+    <tok fileIndex="0" linenr="65" column="1" str="#"/>
+    <tok fileIndex="0" linenr="65" column="2" str="endif"/>
+    <tok fileIndex="0" linenr="65" column="8" str="/* B3F6FA37_57D3_45BF_A789_EB0E7FF55DCB */"/>
+  </rawtokens>
+  <suppressions>
+  </suppressions>
+<dump cfg="">
+  <standards>
+    <c version="c11"/>
+    <cpp version="c++20"/>
+  </standards>
+  <directivelist>
+    <directive file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="1" str="#ifndef B3F6FA37_57D3_45BF_A789_EB0E7FF55DCB"/>
+    <directive file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="2" str="#define B3F6FA37_57D3_45BF_A789_EB0E7FF55DCB"/>
+    <directive file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="4" str="#include &lt;opencv2/opencv.hpp&gt;"/>
+    <directive file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="5" str="#include &lt;opencv2/imgproc/imgproc.hpp&gt;"/>
+    <directive file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="6" str="#include &lt;opencv2/imgcodecs.hpp&gt;"/>
+    <directive file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="7" str="#include &lt;opencv2/videoio.hpp&gt;"/>
+    <directive file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="8" str="#include &lt;opencv2/video.hpp&gt;"/>
+    <directive file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="10" str="#include &lt;string&gt;"/>
+    <directive file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="65" str="#endif"/>
+  </directivelist>
+  <tokenlist>
+    <token id="0391A318" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="12" column="1" str="namespace" scope="03C1D628" type="name"/>
+    <token id="0391A930" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="12" column="11" str="BP" scope="03C1D628" type="name"/>
+    <token id="0391A380" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="12" column="14" str="{" scope="01529558" link="03B9F058"/>
+    <token id="0391A110" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="14" column="1" str="static" scope="01529558" type="name"/>
+    <token id="0391A8C8" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="14" column="8" str="const" scope="01529558" type="name"/>
+    <token id="0391A6C0" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="14" column="14" str="std" scope="01529558" type="name"/>
+    <token id="0391AA00" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="14" column="17" str="::" scope="01529558"/>
+    <token id="0391AA68" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="14" column="19" str="string" scope="01529558" type="name"/>
+    <token id="0391A860" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="14" column="26" str="RECT" scope="01529558" type="name" varId="1" variable="03B9FBC0" astParent="0391AB38" valueType-type="container" valueType-constness="1" valueType-reference="None"/>
+    <token id="0391AB38" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="14" column="31" str="=" scope="01529558" type="op" isAssignmentOp="true" astOperand1="0391A860" astOperand2="03919EA0" valueType-type="container" valueType-constness="1" valueType-reference="None"/>
+    <token id="03919EA0" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="14" column="33" str="&quot;RECT&quot;" scope="01529558" type="string" strlen="4" values="03D356C8" astParent="0391AB38" valueType-type="char" valueType-pointer="1" valueType-constness="1" valueType-reference="None"/>
+    <token id="0391A178" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="14" column="39" str=";" scope="01529558"/>
+    <token id="0391A7F8" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="15" column="1" str="static" scope="01529558" type="name"/>
+    <token id="0391AAD0" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="15" column="8" str="const" scope="01529558" type="name"/>
+    <token id="0391A450" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="15" column="14" str="std" scope="01529558" type="name"/>
+    <token id="03919F08" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="15" column="17" str="::" scope="01529558"/>
+    <token id="03919F70" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="15" column="19" str="string" scope="01529558" type="name"/>
+    <token id="03919FD8" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="15" column="26" str="CROSS" scope="01529558" type="name" varId="2" variable="03B9FC28" astParent="0391A1E0" valueType-type="container" valueType-constness="1" valueType-reference="None"/>
+    <token id="0391A1E0" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="15" column="32" str="=" scope="01529558" type="op" isAssignmentOp="true" astOperand1="03919FD8" astOperand2="0391AD40" valueType-type="container" valueType-constness="1" valueType-reference="None"/>
+    <token id="0391AD40" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="15" column="34" str="&quot;CROSS&quot;" scope="01529558" type="string" strlen="5" values="03D35690" astParent="0391A1E0" valueType-type="char" valueType-pointer="1" valueType-constness="1" valueType-reference="None"/>
+    <token id="0391AC08" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="15" column="41" str=";" scope="01529558"/>
+    <token id="0391AC70" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="16" column="1" str="static" scope="01529558" type="name"/>
+    <token id="0391ABA0" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="16" column="8" str="const" scope="01529558" type="name"/>
+    <token id="0391ACD8" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="16" column="14" str="std" scope="01529558" type="name"/>
+    <token id="0391ADA8" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="16" column="17" str="::" scope="01529558"/>
+    <token id="0391AE10" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="16" column="19" str="string" scope="01529558" type="name"/>
+    <token id="015C6FD8" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="16" column="26" str="ELLIPSE" scope="01529558" type="name" varId="3" variable="03B9F200" astParent="015C6DD0" valueType-type="container" valueType-constness="1" valueType-reference="None"/>
+    <token id="015C6DD0" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="16" column="34" str="=" scope="01529558" type="op" isAssignmentOp="true" astOperand1="015C6FD8" astOperand2="015C6E38" valueType-type="container" valueType-constness="1" valueType-reference="None"/>
+    <token id="015C6E38" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="16" column="36" str="&quot;ELLIPSE&quot;" scope="01529558" type="string" strlen="7" values="03D353B8" astParent="015C6DD0" valueType-type="char" valueType-pointer="1" valueType-constness="1" valueType-reference="None"/>
+    <token id="015C6EA0" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="16" column="45" str=";" scope="01529558"/>
+    <token id="015C6F08" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="17" column="1" str="static" scope="01529558" type="name"/>
+    <token id="015C6F70" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="17" column="8" str="const" scope="01529558" type="name"/>
+    <token id="015C6D68" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="17" column="14" str="std" scope="01529558" type="name"/>
+    <token id="015C6410" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="17" column="17" str="::" scope="01529558"/>
+    <token id="015C6888" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="17" column="19" str="string" scope="01529558" type="name"/>
+    <token id="015C6068" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="17" column="26" str="KNN" scope="01529558" type="name" varId="4" variable="03BA00A0" astParent="015C65B0" valueType-type="container" valueType-constness="1" valueType-reference="None"/>
+    <token id="015C65B0" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="17" column="30" str="=" scope="01529558" type="op" isAssignmentOp="true" astOperand1="015C6068" astOperand2="015C68F0" valueType-type="container" valueType-constness="1" valueType-reference="None"/>
+    <token id="015C68F0" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="17" column="32" str="&quot;KNN&quot;" scope="01529558" type="string" strlen="3" values="03D35D58" astParent="015C65B0" valueType-type="char" valueType-pointer="1" valueType-constness="1" valueType-reference="None"/>
+    <token id="015C6340" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="17" column="37" str=";" scope="01529558"/>
+    <token id="015C6A28" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="18" column="1" str="static" scope="01529558" type="name"/>
+    <token id="015C6B60" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="18" column="8" str="const" scope="01529558" type="name"/>
+    <token id="015C6AF8" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="18" column="14" str="std" scope="01529558" type="name"/>
+    <token id="015C63A8" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="18" column="17" str="::" scope="01529558"/>
+    <token id="015C6C98" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="18" column="19" str="string" scope="01529558" type="name"/>
+    <token id="015C6750" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="18" column="26" str="MOG2" scope="01529558" type="name" varId="5" variable="03BA0038" astParent="015C6D00" valueType-type="container" valueType-constness="1" valueType-reference="None"/>
+    <token id="015C6D00" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="18" column="31" str="=" scope="01529558" type="op" isAssignmentOp="true" astOperand1="015C6750" astOperand2="015C6478" valueType-type="container" valueType-constness="1" valueType-reference="None"/>
+    <token id="015C6478" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="18" column="33" str="&quot;MOG2&quot;" scope="01529558" type="string" strlen="4" values="03D35888" astParent="015C6D00" valueType-type="char" valueType-pointer="1" valueType-constness="1" valueType-reference="None"/>
+    <token id="015C6680" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="18" column="39" str=";" scope="01529558"/>
+    <token id="015C6958" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="20" column="1" str="struct" scope="01529558" type="name"/>
+    <token id="015C6270" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="20" column="8" str="Parameters" scope="01529558" type="name" type-scope="0156D038"/>
+    <token id="015C69C0" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="20" column="19" str="{" scope="0156D038" link="03BBA4E8"/>
+    <token id="015C66E8" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="21" column="5" str="std" scope="0156D038" type="name" astParent="015C64E0"/>
+    <token id="015C64E0" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="21" column="8" str="::" scope="0156D038" astOperand1="015C66E8" astOperand2="015C67B8" valueType-type="container" valueType-reference="None"/>
+    <token id="015C6548" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="21" column="10" str="string" scope="0156D038" type="name"/>
+    <token id="015C67B8" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="21" column="17" str="bgSubtractor" scope="0156D038" type="name" varId="6" variable="03B9FF68" astParent="015C64E0" valueType-type="container" valueType-reference="None"/>
+    <token id="015C62D8" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="21" column="29" str=";" scope="0156D038"/>
+    <token id="015C6618" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="22" column="5" str="bool" scope="0156D038" type="name"/>
+    <token id="015C6C30" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="22" column="10" str="bgSubVerbose" scope="0156D038" type="name" varId="7" variable="03B9FDC8" valueType-type="bool" valueType-reference="None"/>
+    <token id="015C6A90" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="22" column="22" str=";" scope="0156D038"/>
+    <token id="015C6820" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="24" column="5" str="int" scope="0156D038" type="name"/>
+    <token id="015C6BC8" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="24" column="9" str="blur" scope="0156D038" type="name" varId="8" variable="03BA01D8" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="015C60D0" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="24" column="13" str=";" scope="0156D038"/>
+    <token id="015C6138" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="25" column="5" str="bool" scope="0156D038" type="name"/>
+    <token id="015C61A0" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="25" column="10" str="blurVerbose" scope="0156D038" type="name" varId="9" variable="03BA0240" valueType-type="bool" valueType-reference="None"/>
+    <token id="015C6208" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="25" column="21" str=";" scope="0156D038"/>
+    <token id="03BB9F38" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="27" column="5" str="std" scope="0156D038" type="name" astParent="03BB9A58"/>
+    <token id="03BB9A58" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="27" column="8" str="::" scope="0156D038" astOperand1="03BB9F38" astOperand2="03BBA140" valueType-type="container" valueType-reference="None"/>
+    <token id="03BB98B8" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="27" column="10" str="string" scope="0156D038" type="name"/>
+    <token id="03BBA140" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="27" column="17" str="erosion" scope="0156D038" type="name" varId="10" variable="03B9FD60" astParent="03BB9A58" valueType-type="container" valueType-reference="None"/>
+    <token id="03BB9E68" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="27" column="24" str=";" scope="0156D038"/>
+    <token id="03BB9FA0" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="28" column="5" str="bool" scope="0156D038" type="name"/>
+    <token id="03BB9ED0" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="28" column="10" str="erosionVerbose" scope="0156D038" type="name" varId="11" variable="03BA02A8" valueType-type="bool" valueType-reference="None"/>
+    <token id="03BB9E00" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="28" column="24" str=";" scope="0156D038"/>
+    <token id="03BB9AC0" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="29" column="5" str="int" scope="0156D038" type="name"/>
+    <token id="03BB9D98" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="29" column="9" str="erosionSize" scope="0156D038" type="name" varId="12" variable="03BA0108" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="03BBA008" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="29" column="20" str=";" scope="0156D038"/>
+    <token id="03BB9B28" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="31" column="5" str="std" scope="0156D038" type="name" astParent="03BBA070"/>
+    <token id="03BBA070" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="31" column="8" str="::" scope="0156D038" astOperand1="03BB9B28" astOperand2="03BB9BF8" valueType-type="container" valueType-reference="None"/>
+    <token id="03BBA348" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="31" column="10" str="string" scope="0156D038" type="name"/>
+    <token id="03BB9BF8" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="31" column="17" str="dilation" scope="0156D038" type="name" varId="13" variable="03B9FE30" astParent="03BBA070" valueType-type="container" valueType-reference="None"/>
+    <token id="03BBA0D8" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="31" column="25" str=";" scope="0156D038"/>
+    <token id="03BB9850" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="32" column="5" str="int" scope="0156D038" type="name"/>
+    <token id="03BBA1A8" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="32" column="9" str="dilationSize" scope="0156D038" type="name" varId="14" variable="03B9FE98" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="03BBA210" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="32" column="21" str=";" scope="0156D038"/>
+    <token id="03BBA278" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="33" column="5" str="bool" scope="0156D038" type="name"/>
+    <token id="03BB9C60" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="33" column="10" str="dilationVerbose" scope="0156D038" type="name" varId="15" variable="03B9FF00" valueType-type="bool" valueType-reference="None"/>
+    <token id="03BBA2E0" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="33" column="25" str=";" scope="0156D038"/>
+    <token id="03BBA3B0" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="35" column="5" str="int" scope="0156D038" type="name"/>
+    <token id="03BB9CC8" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="35" column="9" str="threshold" scope="0156D038" type="name" varId="16" variable="03B9FFD0" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="03BB9B90" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="35" column="18" str=";" scope="0156D038"/>
+    <token id="03BBA418" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="36" column="5" str="bool" scope="0156D038" type="name"/>
+    <token id="03BBA480" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="36" column="10" str="thresholdVerbose" scope="0156D038" type="name" varId="17" variable="03BA0170" valueType-type="bool" valueType-reference="None"/>
+    <token id="03BB9D30" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="36" column="26" str=";" scope="0156D038"/>
+    <token id="03BBA4E8" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="37" column="1" str="}" scope="0156D038" link="015C69C0"/>
+    <token id="03BB9920" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="37" column="2" str=";" scope="01529558"/>
+    <token id="03BB9988" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="41" column="1" str="using" scope="01529558" type="name"/>
+    <token id="03BB99F0" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="41" column="7" str="namespace" scope="01529558" type="name"/>
+    <token id="03BBA6F0" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="41" column="17" str="cv" scope="01529558" type="name"/>
+    <token id="03BBA688" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="41" column="19" str=";" scope="01529558"/>
+    <token id="03BBA5B8" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="43" column="1" str="class" scope="01529558" type="name"/>
+    <token id="03BBA620" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="43" column="7" str="BasicProcessing" scope="01529558" type="name" type-scope="0156D118"/>
+    <token id="03BBA758" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="43" column="22" str="{" scope="0156D118" link="03B9FA18"/>
+    <token id="03BBA7C0" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="44" column="1" str="public:" scope="0156D118" type="name"/>
+    <token id="03BBAD38" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="45" column="5" str="static" scope="0156D118" type="name"/>
+    <token id="03BBA858" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="45" column="12" str="BasicProcessing" scope="0156D118" type="name" type-scope="0156D118"/>
+    <token id="03BBAA60" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="45" column="27" str="&amp;" scope="0156D118" type="op"/>
+    <token id="03BBAB98" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="45" column="29" str="getInstance" scope="0156D118" type="name" function="03B9A960"/>
+    <token id="03BBA8C0" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="45" column="40" str="(" scope="0156D118" link="03BBB280" valueType-type="record" valueType-reference="LValue" valueType-typeScope="0156D118"/>
+    <token id="03BBB280" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="45" column="41" str=")" scope="0156D118" link="03BBA8C0"/>
+    <token id="03BBACD0" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="45" column="42" str=";" scope="0156D118"/>
+    <token id="03BBADA0" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="46" column="5" str="virtual" scope="0156D118" type="name"/>
+    <token id="03BBA928" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="46" column="13" str="~" scope="0156D118" type="op"/>
+    <token id="03BBAE08" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="46" column="14" str="BasicProcessing" scope="0156D118" type="name" function="03B9A360" astParent="03BBAED8"/>
+    <token id="03BBAED8" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="46" column="29" str="(" scope="0156D118" link="03BBB010" astOperand1="03BBAE08"/>
+    <token id="03BBB010" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="46" column="30" str=")" scope="0156D118" link="03BBAED8"/>
+    <token id="03BBB0E0" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="46" column="31" str=";" scope="0156D118"/>
+    <token id="03BBAE70" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="47" column="5" str="void" scope="0156D118" type="name"/>
+    <token id="03BBAAC8" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="47" column="10" str="initialize" scope="0156D118" type="name" function="03B9ACE0"/>
+    <token id="03BBA990" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="47" column="20" str="(" scope="0156D118" link="03BBB2E8" valueType-type="void" valueType-reference="None"/>
+    <token id="03BBB218" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="47" column="21" str="Parameters" scope="0156D118" type="name" type-scope="0156D038" astParent="03BBAB30"/>
+    <token id="03BBAB30" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="47" column="31" str="&amp;" scope="0156D118" type="op" astOperand1="03BBB218" astOperand2="03BBA9F8"/>
+    <token id="03BBA9F8" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="47" column="33" str="m_params" scope="0156D118" type="name" varId="18" variable="03B9E430" astParent="03BBAB30" valueType-type="record" valueType-reference="LValue" valueType-typeScope="0156D038"/>
+    <token id="03BBB2E8" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="47" column="41" str=")" scope="0156D118" link="03BBA990"/>
+    <token id="03BBB148" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="47" column="42" str=";" scope="0156D118"/>
+    <token id="03BBAC00" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="48" column="5" str="void" scope="0156D118" type="name"/>
+    <token id="03BBB078" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="48" column="10" str="process" scope="0156D118" type="name" function="03B9AA60"/>
+    <token id="03BBAF40" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="48" column="17" str="(" scope="0156D118" link="03BBB350" valueType-type="void" valueType-reference="None"/>
+    <token id="03BBAC68" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="48" column="18" str="Mat" scope="0156D118" type="name" astParent="03BBAFA8"/>
+    <token id="03BBAFA8" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="48" column="21" str="&amp;" scope="0156D118" type="op" astOperand1="03BBAC68" astOperand2="03BBB1B0"/>
+    <token id="03BBB1B0" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="48" column="23" str="frame" scope="0156D118" type="name" varId="19" variable="03B9E8A8" astParent="03BBAFA8"/>
+    <token id="03BBB350" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="48" column="28" str=")" scope="0156D118" link="03BBAF40"/>
+    <token id="03BBB3B8" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="48" column="29" str=";" scope="0156D118"/>
+    <token id="03BBB420" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="49" column="5" str="const" scope="0156D118" type="name"/>
+    <token id="03BBB488" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="49" column="11" str="Mat" scope="0156D118" type="name"/>
+    <token id="03BBB4F0" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="49" column="14" str="&amp;" scope="0156D118" type="op"/>
+    <token id="03BBB628" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="49" column="16" str="getResult" scope="0156D118" type="name" function="03B9A860"/>
+    <token id="03BBB760" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="49" column="25" str="(" scope="0156D118" link="03BBB690"/>
+    <token id="03BBB690" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="49" column="26" str=")" scope="0156D118" link="03BBB760"/>
+    <token id="03BBB5C0" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="49" column="27" str=";" scope="0156D118"/>
+    <token id="03BBB7C8" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="51" column="1" str="private:" scope="0156D118" type="name"/>
+    <token id="03BBB558" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="52" column="5" str="void" scope="0156D118" type="name"/>
+    <token id="03A2CE30" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="52" column="10" str="blur" scope="0156D118" type="name" function="03B9A660"/>
+    <token id="03A2CF00" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="52" column="14" str="(" scope="0156D118" link="03A2CD60" valueType-type="void" valueType-reference="None"/>
+    <token id="03A2CF68" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="52" column="15" str="Mat" scope="0156D118" type="name" astParent="03A2CE98"/>
+    <token id="03A2CE98" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="52" column="18" str="&amp;" scope="0156D118" type="op" astOperand1="03A2CF68" astOperand2="03A2CDC8"/>
+    <token id="03A2CDC8" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="52" column="20" str="frame" scope="0156D118" type="name" varId="20" variable="03B9EEC0" astParent="03A2CE98"/>
+    <token id="03A2CD60" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="52" column="25" str=")" scope="0156D118" link="03A2CF00"/>
+    <token id="03A2CFD0" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="52" column="26" str=";" scope="0156D118"/>
+    <token id="03A2C2D0" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="53" column="5" str="void" scope="0156D118" type="name"/>
+    <token id="03A2C060" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="53" column="10" str="dilation" scope="0156D118" type="name" function="03B9AD60"/>
+    <token id="03A2CAF0" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="53" column="18" str="(" scope="0156D118" link="03A2C338" valueType-type="void" valueType-reference="None"/>
+    <token id="03A2C540" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="53" column="19" str="Mat" scope="0156D118" type="name" astParent="03A2C7B0"/>
+    <token id="03A2C7B0" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="53" column="22" str="&amp;" scope="0156D118" type="op" astOperand1="03A2C540" astOperand2="03A2C0C8"/>
+    <token id="03A2C0C8" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="53" column="24" str="frame" scope="0156D118" type="name" varId="21" variable="03B9E5D0" astParent="03A2C7B0"/>
+    <token id="03A2C338" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="53" column="29" str=")" scope="0156D118" link="03A2CAF0"/>
+    <token id="03A2C5A8" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="53" column="30" str=";" scope="0156D118"/>
+    <token id="03A2CCF8" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="54" column="5" str="void" scope="0156D118" type="name"/>
+    <token id="03A2CC90" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="54" column="10" str="erosion" scope="0156D118" type="name" function="03B9A560"/>
+    <token id="03A2C3A0" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="54" column="17" str="(" scope="0156D118" link="03A2C470" valueType-type="void" valueType-reference="None"/>
+    <token id="03A2C950" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="54" column="18" str="Mat" scope="0156D118" type="name" astParent="03A2C408"/>
+    <token id="03A2C408" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="54" column="21" str="&amp;" scope="0156D118" type="op" astOperand1="03A2C950" astOperand2="03A2CA20"/>
+    <token id="03A2CA20" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="54" column="23" str="frame" scope="0156D118" type="name" varId="22" variable="03B9E7D8" astParent="03A2C408"/>
+    <token id="03A2C470" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="54" column="28" str=")" scope="0156D118" link="03A2C3A0"/>
+    <token id="03A2C130" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="54" column="29" str=";" scope="0156D118"/>
+    <token id="03A2CB58" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="55" column="5" str="void" scope="0156D118" type="name"/>
+    <token id="03A2C4D8" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="55" column="10" str="binarize" scope="0156D118" type="name" function="03B9A9E0"/>
+    <token id="03A2C9B8" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="55" column="18" str="(" scope="0156D118" link="03A2C268" valueType-type="void" valueType-reference="None"/>
+    <token id="03A2C610" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="55" column="19" str="Mat" scope="0156D118" type="name" astParent="03A2C198"/>
+    <token id="03A2C198" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="55" column="22" str="&amp;" scope="0156D118" type="op" astOperand1="03A2C610" astOperand2="03A2C200"/>
+    <token id="03A2C200" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="55" column="24" str="frame" scope="0156D118" type="name" varId="23" variable="03B9E840" astParent="03A2C198"/>
+    <token id="03A2C268" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="55" column="29" str=")" scope="0156D118" link="03A2C9B8"/>
+    <token id="03A2CBC0" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="55" column="30" str=";" scope="0156D118"/>
+    <token id="03A2CA88" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="57" column="5" str="BasicProcessing" scope="0156D118" type="name" function="03B9AAE0" astParent="03A2C678"/>
+    <token id="03A2C678" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="57" column="20" str="(" scope="0156D118" link="03A2CC28" astOperand1="03A2CA88" valueType-type="record" valueType-reference="None" valueType-typeScope="0156D118"/>
+    <token id="03A2CC28" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="57" column="21" str=")" scope="0156D118" link="03A2C678"/>
+    <token id="03A2C6E0" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="57" column="22" str=";" scope="0156D118"/>
+    <token id="03A2C748" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="58" column="5" str="Parameters" scope="0156D118" type="name" type-scope="0156D038"/>
+    <token id="03A2C818" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="58" column="16" str="m_params" scope="0156D118" type="name" varId="24" variable="03B9E770" valueType-type="record" valueType-reference="None" valueType-typeScope="0156D038"/>
+    <token id="03A2C880" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="58" column="24" str=";" scope="0156D118"/>
+    <token id="03A2C8E8" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="59" column="5" str="Ptr" scope="0156D118" type="name"/>
+    <token id="03B9F468" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="59" column="8" str="&lt;" scope="0156D118" link="03B9F400"/>
+    <token id="03B9F538" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="59" column="9" str="BackgroundSubtractor" scope="0156D118" type="name"/>
+    <token id="03B9F400" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="59" column="29" str="&gt;" scope="0156D118" link="03B9F468"/>
+    <token id="03B9F6D8" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="59" column="31" str="m_bgSubtractor" scope="0156D118" type="name" varId="25" variable="03B9E3C8"/>
+    <token id="03B9F670" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="59" column="45" str=";" scope="0156D118"/>
+    <token id="03B9F5A0" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="60" column="5" str="Mat" scope="0156D118" type="name"/>
+    <token id="03B9F2C8" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="60" column="9" str="m_result" scope="0156D118" type="name" varId="26" variable="03B9E568"/>
+    <token id="03B9F0C0" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="60" column="17" str=";" scope="0156D118"/>
+    <token id="03B9FA18" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="61" column="1" str="}" scope="0156D118" link="03BBA758"/>
+    <token id="03B9F330" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="61" column="2" str=";" scope="01529558"/>
+    <token id="03B9F058" file="C:/Users/fgrando/Downloads/cppcheck-rules/input-example.h" linenr="64" column="1" str="}" scope="01529558" link="0391A380"/>
+  </tokenlist>
+  <scopes>
+    <scope id="03C1D628" type="Global"/>
+    <scope id="01529558" type="Namespace" className="BP" bodyStart="0391A380" bodyEnd="03B9F058" nestedIn="03C1D628">
+      <varlist>
+        <var id="03B9FBC0"/>
+        <var id="03B9FC28"/>
+        <var id="03B9F200"/>
+        <var id="03BA00A0"/>
+        <var id="03BA0038"/>
+      </varlist>
+    </scope>
+    <scope id="0156D038" type="Struct" className="Parameters" bodyStart="015C69C0" bodyEnd="03BBA4E8" nestedIn="01529558">
+      <varlist>
+        <var id="03B9FF68"/>
+        <var id="03B9FDC8"/>
+        <var id="03BA01D8"/>
+        <var id="03BA0240"/>
+        <var id="03B9FD60"/>
+        <var id="03BA02A8"/>
+        <var id="03BA0108"/>
+        <var id="03B9FE30"/>
+        <var id="03B9FE98"/>
+        <var id="03B9FF00"/>
+        <var id="03B9FFD0"/>
+        <var id="03BA0170"/>
+      </varlist>
+    </scope>
+    <scope id="0156D118" type="Class" className="BasicProcessing" bodyStart="03BBA758" bodyEnd="03B9FA18" nestedIn="01529558">
+      <functionList>
+        <function id="03B9A960" tokenDef="03BBAB98" name="getInstance" type="Function" isStatic="true"/>
+        <function id="03B9A360" tokenDef="03BBAE08" name="BasicProcessing" type="Destructor" hasVirtualSpecifier="true"/>
+        <function id="03B9ACE0" tokenDef="03BBAAC8" name="initialize" type="Function">
+          <arg nr="1" variable="03B9E430"/>
+        </function>
+        <function id="03B9AA60" tokenDef="03BBB078" name="process" type="Function">
+          <arg nr="1" variable="03B9E8A8"/>
+        </function>
+        <function id="03B9A860" tokenDef="03BBB628" name="getResult" type="Function"/>
+        <function id="03B9A660" tokenDef="03A2CE30" name="blur" type="Function">
+          <arg nr="1" variable="03B9EEC0"/>
+        </function>
+        <function id="03B9AD60" tokenDef="03A2C060" name="dilation" type="Function">
+          <arg nr="1" variable="03B9E5D0"/>
+        </function>
+        <function id="03B9A560" tokenDef="03A2CC90" name="erosion" type="Function">
+          <arg nr="1" variable="03B9E7D8"/>
+        </function>
+        <function id="03B9A9E0" tokenDef="03A2C4D8" name="binarize" type="Function">
+          <arg nr="1" variable="03B9E840"/>
+        </function>
+        <function id="03B9AAE0" tokenDef="03A2CA88" name="BasicProcessing" type="Constructor"/>
+      </functionList>
+      <varlist>
+        <var id="03B9E770"/>
+        <var id="03B9E3C8"/>
+        <var id="03B9E568"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="03B9E3C8" nameToken="03B9F6D8" typeStartToken="03A2C8E8" typeEndToken="03B9F400" access="Private" scope="0156D118" constness="0" isArgument="false" isArray="false" isClass="true" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="03B9E430" nameToken="03BBA9F8" typeStartToken="03BBB218" typeEndToken="03BBAB30" access="Argument" scope="00000000" constness="0" isArgument="true" isArray="false" isClass="false" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="03B9E568" nameToken="03B9F2C8" typeStartToken="03B9F5A0" typeEndToken="03B9F5A0" access="Private" scope="0156D118" constness="0" isArgument="false" isArray="false" isClass="true" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="03B9E5D0" nameToken="03A2C0C8" typeStartToken="03A2C540" typeEndToken="03A2C7B0" access="Argument" scope="00000000" constness="0" isArgument="true" isArray="false" isClass="false" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="03B9E770" nameToken="03A2C818" typeStartToken="03A2C748" typeEndToken="03A2C748" access="Private" scope="0156D118" constness="0" isArgument="false" isArray="false" isClass="true" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="03B9E7D8" nameToken="03A2CA20" typeStartToken="03A2C950" typeEndToken="03A2C408" access="Argument" scope="00000000" constness="0" isArgument="true" isArray="false" isClass="false" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="03B9E840" nameToken="03A2C200" typeStartToken="03A2C610" typeEndToken="03A2C198" access="Argument" scope="00000000" constness="0" isArgument="true" isArray="false" isClass="false" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="03B9E8A8" nameToken="03BBB1B0" typeStartToken="03BBAC68" typeEndToken="03BBAFA8" access="Argument" scope="00000000" constness="0" isArgument="true" isArray="false" isClass="false" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="03B9EEC0" nameToken="03A2CDC8" typeStartToken="03A2CF68" typeEndToken="03A2CE98" access="Argument" scope="00000000" constness="0" isArgument="true" isArray="false" isClass="false" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="03B9F200" nameToken="015C6FD8" typeStartToken="0391ACD8" typeEndToken="0391AE10" access="Namespace" scope="01529558" constness="1" isArgument="false" isArray="false" isClass="true" isConst="true" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="true"/>
+    <var id="03B9FBC0" nameToken="0391A860" typeStartToken="0391A6C0" typeEndToken="0391AA68" access="Namespace" scope="01529558" constness="1" isArgument="false" isArray="false" isClass="true" isConst="true" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="true"/>
+    <var id="03B9FC28" nameToken="03919FD8" typeStartToken="0391A450" typeEndToken="03919F70" access="Namespace" scope="01529558" constness="1" isArgument="false" isArray="false" isClass="true" isConst="true" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="true"/>
+    <var id="03B9FD60" nameToken="03BBA140" typeStartToken="03BB9F38" typeEndToken="03BB98B8" access="Public" scope="0156D038" constness="0" isArgument="false" isArray="false" isClass="true" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="03B9FDC8" nameToken="015C6C30" typeStartToken="015C6618" typeEndToken="015C6618" access="Public" scope="0156D038" constness="0" isArgument="false" isArray="false" isClass="false" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="03B9FE30" nameToken="03BB9BF8" typeStartToken="03BB9B28" typeEndToken="03BBA348" access="Public" scope="0156D038" constness="0" isArgument="false" isArray="false" isClass="true" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="03B9FE98" nameToken="03BBA1A8" typeStartToken="03BB9850" typeEndToken="03BB9850" access="Public" scope="0156D038" constness="0" isArgument="false" isArray="false" isClass="false" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="03B9FF00" nameToken="03BB9C60" typeStartToken="03BBA278" typeEndToken="03BBA278" access="Public" scope="0156D038" constness="0" isArgument="false" isArray="false" isClass="false" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="03B9FF68" nameToken="015C67B8" typeStartToken="015C66E8" typeEndToken="015C6548" access="Public" scope="0156D038" constness="0" isArgument="false" isArray="false" isClass="true" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="03B9FFD0" nameToken="03BB9CC8" typeStartToken="03BBA3B0" typeEndToken="03BBA3B0" access="Public" scope="0156D038" constness="0" isArgument="false" isArray="false" isClass="false" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="03BA0038" nameToken="015C6750" typeStartToken="015C6AF8" typeEndToken="015C6C98" access="Namespace" scope="01529558" constness="1" isArgument="false" isArray="false" isClass="true" isConst="true" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="true"/>
+    <var id="03BA00A0" nameToken="015C6068" typeStartToken="015C6D68" typeEndToken="015C6888" access="Namespace" scope="01529558" constness="1" isArgument="false" isArray="false" isClass="true" isConst="true" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="true"/>
+    <var id="03BA0108" nameToken="03BB9D98" typeStartToken="03BB9AC0" typeEndToken="03BB9AC0" access="Public" scope="0156D038" constness="0" isArgument="false" isArray="false" isClass="false" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="03BA0170" nameToken="03BBA480" typeStartToken="03BBA418" typeEndToken="03BBA418" access="Public" scope="0156D038" constness="0" isArgument="false" isArray="false" isClass="false" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="03BA01D8" nameToken="015C6BC8" typeStartToken="015C6820" typeEndToken="015C6820" access="Public" scope="0156D038" constness="0" isArgument="false" isArray="false" isClass="false" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="03BA0240" nameToken="015C61A0" typeStartToken="015C6138" typeEndToken="015C6138" access="Public" scope="0156D038" constness="0" isArgument="false" isArray="false" isClass="false" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="03BA02A8" nameToken="03BB9ED0" typeStartToken="03BB9FA0" typeEndToken="03BB9FA0" access="Public" scope="0156D038" constness="0" isArgument="false" isArray="false" isClass="false" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="03D356C8">
+      <value tokvalue="03919EA0" known="true"/>
+    </values>
+    <values id="03D35690">
+      <value tokvalue="0391AD40" known="true"/>
+    </values>
+    <values id="03D353B8">
+      <value tokvalue="015C6E38" known="true"/>
+    </values>
+    <values id="03D35D58">
+      <value tokvalue="015C68F0" known="true"/>
+    </values>
+    <values id="03D35888">
+      <value tokvalue="015C6478" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>
